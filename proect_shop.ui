@@ -1,0 +1,1128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1120</width>
+    <height>904</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="styleSheet">
+    <string notr="true">background-color: #002244</string>
+   </property>
+   <widget class="QTabWidget" name="tabWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>0</y>
+      <width>1101</width>
+      <height>851</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #111111</string>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="tab">
+     <attribute name="title">
+      <string>Главнаяя</string>
+     </attribute>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>71</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Space Bd BT</family>
+        <pointsize>20</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: white</string>
+      </property>
+      <property name="text">
+       <string>Top:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_glavnaya_top1">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>70</y>
+        <width>550</width>
+        <height>550</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_glavnaya_top2">
+      <property name="geometry">
+       <rect>
+        <x>680</x>
+        <y>10</y>
+        <width>391</width>
+        <height>291</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_glavnaya_top3">
+      <property name="geometry">
+       <rect>
+        <x>689</x>
+        <y>419</y>
+        <width>401</width>
+        <height>291</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QTextEdit" name="textEdit_glavnaya_top2">
+      <property name="geometry">
+       <rect>
+        <x>720</x>
+        <y>310</y>
+        <width>231</width>
+        <height>101</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>13</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #444444;
+color: white;
+border-radius: 40;
+border-color: red</string>
+      </property>
+     </widget>
+     <widget class="QTextEdit" name="textEdit_glavnaya_top1">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>650</y>
+        <width>471</width>
+        <height>161</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>13</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #444444;
+color: white;
+border-radius: 40;
+border-color: red</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_glavnaya_top2">
+      <property name="geometry">
+       <rect>
+        <x>960</x>
+        <y>310</y>
+        <width>121</width>
+        <height>101</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>35</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+	color: #ff6666;
+	background-color: #222222;
+	border-color: rgb(66, 69, 183);
+     border-width: 3px;        
+     border-style: solid;
+     border-radius: 50px;
+}
+
+QPushButton:pressed{
+	background-color: #333333;
+	color: 220000;
+}</string>
+      </property>
+      <property name="text">
+       <string>&lt;3</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_glavnaya_top1">
+      <property name="geometry">
+       <rect>
+        <x>500</x>
+        <y>650</y>
+        <width>171</width>
+        <height>161</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>45</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+	color: #ff6666;
+	background-color: #222222;
+	border-color: rgb(66, 69, 183);
+     border-width: 3px;        
+     border-style: solid;
+     border-radius: 50px;
+}
+
+QPushButton:pressed{
+	background-color: #333333;
+	color: 220000;
+}</string>
+      </property>
+      <property name="text">
+       <string>&lt;3</string>
+      </property>
+     </widget>
+     <widget class="QTextEdit" name="textEdit_glavnaya_top3">
+      <property name="geometry">
+       <rect>
+        <x>720</x>
+        <y>710</y>
+        <width>231</width>
+        <height>101</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>13</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #444444;
+color: white;
+border-radius: 40;
+border-color: red</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_glavnaya_top3">
+      <property name="geometry">
+       <rect>
+        <x>960</x>
+        <y>710</y>
+        <width>121</width>
+        <height>101</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>35</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+	color: #ff6666;
+	background-color: #222222;
+	border-color: rgb(66, 69, 183);
+     border-width: 3px;        
+     border-style: solid;
+     border-radius: 50px;
+}
+
+QPushButton:pressed{
+	background-color: #333333;
+	color: 220000;
+}</string>
+      </property>
+      <property name="text">
+       <string>&lt;3</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_5">
+     <attribute name="title">
+      <string>Электротехника</string>
+     </attribute>
+     <widget class="QComboBox" name="comboBox_electro_search">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>50</y>
+        <width>321</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>13</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #77777e;
+color: white</string>
+      </property>
+     </widget>
+     <widget class="QTextEdit" name="textEdit_electro_description">
+      <property name="geometry">
+       <rect>
+        <x>210</x>
+        <y>290</y>
+        <width>361</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>13</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: white;
+background-color: #555555;
+border-radius: 8</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_electro_id">
+      <property name="geometry">
+       <rect>
+        <x>210</x>
+        <y>120</y>
+        <width>361</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>13</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: white;
+background-color: #555555;
+border-radius: 10</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_electro_price">
+      <property name="geometry">
+       <rect>
+        <x>210</x>
+        <y>400</y>
+        <width>361</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>13</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: white;
+background-color: #555555;
+border-radius: 10</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_electro_name">
+      <property name="geometry">
+       <rect>
+        <x>210</x>
+        <y>210</y>
+        <width>361</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>13</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: white;
+background-color: #555555;
+border-radius: 10</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_electro_search">
+      <property name="geometry">
+       <rect>
+        <x>310</x>
+        <y>-20</y>
+        <width>291</width>
+        <height>161</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Swiss921 BT</family>
+        <pointsize>16</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+	color: #ff6666;
+	background-color: #222222;
+	border-color: rgb(66, 69, 183);
+     border-width: 3px;        
+     border-style: solid;
+     border-radius: 10px;
+     margin:30px;
+     padding:30px;
+}
+
+QPushButton:pressed{
+	background-color: #333333;
+	color: 220000;
+}</string>
+      </property>
+      <property name="text">
+       <string>Найти</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="layoutWidget">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>110</y>
+        <width>161</width>
+        <height>361</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <widget class="QLabel" name="label_9">
+         <property name="font">
+          <font>
+           <pointsize>13</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: white</string>
+         </property>
+         <property name="text">
+          <string>ID:</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_10">
+         <property name="font">
+          <font>
+           <pointsize>13</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: white</string>
+         </property>
+         <property name="text">
+          <string>Название:</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_13">
+         <property name="font">
+          <font>
+           <pointsize>13</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: white</string>
+         </property>
+         <property name="text">
+          <string>Описание:</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_12">
+         <property name="font">
+          <font>
+           <pointsize>13</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: white</string>
+         </property>
+         <property name="text">
+          <string>Цена:</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QPushButton" name="pushButton_electro_like">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>520</y>
+        <width>361</width>
+        <height>231</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>30</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+	color: #ff6666;
+	background-color: #222222;
+	border-color: rgb(66, 69, 183);
+     border-width: 3px;        
+     border-style: solid;
+     border-radius: 10px;
+     margin:30px;
+     padding:30px;
+}
+
+QPushButton:pressed{
+	background-color: #333333;
+	color: 220000;
+}</string>
+      </property>
+      <property name="text">
+       <string>&lt;3</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_electro_photo">
+      <property name="geometry">
+       <rect>
+        <x>590</x>
+        <y>20</y>
+        <width>500</width>
+        <height>780</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_14">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>10</y>
+        <width>181</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>15</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: white</string>
+      </property>
+      <property name="text">
+       <string>Название товара:</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_4">
+     <attribute name="title">
+      <string>Кофе</string>
+     </attribute>
+     <widget class="QLineEdit" name="lineEdit_cofe_id">
+      <property name="geometry">
+       <rect>
+        <x>210</x>
+        <y>130</y>
+        <width>361</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>13</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: white;
+background-color: #555555;
+border-radius: 10</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_cofe_like">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>530</y>
+        <width>361</width>
+        <height>231</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>30</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+	color: #ff6666;
+	background-color: #222222;
+	border-color: rgb(66, 69, 183);
+     border-width: 3px;        
+     border-style: solid;
+     border-radius: 10px;
+     margin:30px;
+     padding:30px;
+}
+
+QPushButton:pressed{
+	background-color: #333333;
+	color: 220000;
+}</string>
+      </property>
+      <property name="text">
+       <string>&lt;3</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="layoutWidget_2">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>120</y>
+        <width>161</width>
+        <height>361</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_3">
+       <item>
+        <widget class="QLabel" name="label_11">
+         <property name="font">
+          <font>
+           <pointsize>13</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: white</string>
+         </property>
+         <property name="text">
+          <string>ID:</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_15">
+         <property name="font">
+          <font>
+           <pointsize>13</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: white</string>
+         </property>
+         <property name="text">
+          <string>Название:</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_16">
+         <property name="font">
+          <font>
+           <pointsize>13</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: white</string>
+         </property>
+         <property name="text">
+          <string>Описание:</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_17">
+         <property name="font">
+          <font>
+           <pointsize>13</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: white</string>
+         </property>
+         <property name="text">
+          <string>Цена:</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QPushButton" name="pushButton_cofe_search">
+      <property name="geometry">
+       <rect>
+        <x>310</x>
+        <y>-10</y>
+        <width>291</width>
+        <height>161</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Swiss921 BT</family>
+        <pointsize>16</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+	color: #ff6666;
+	background-color: #222222;
+	border-color: rgb(66, 69, 183);
+     border-width: 3px;        
+     border-style: solid;
+     border-radius: 10px;
+     margin:30px;
+     padding:30px;
+}
+
+QPushButton:pressed{
+	background-color: #333333;
+	color: 220000;
+}</string>
+      </property>
+      <property name="text">
+       <string>Найти</string>
+      </property>
+     </widget>
+     <widget class="QTextEdit" name="textEdit_cofe_description">
+      <property name="geometry">
+       <rect>
+        <x>210</x>
+        <y>300</y>
+        <width>361</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>13</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: white;
+background-color: #555555;
+border-radius: 8</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_cofe_price">
+      <property name="geometry">
+       <rect>
+        <x>210</x>
+        <y>410</y>
+        <width>361</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>13</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: white;
+background-color: #555555;
+border-radius: 10</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_18">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>20</y>
+        <width>181</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>15</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: white</string>
+      </property>
+      <property name="text">
+       <string>Название товара:</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_cofe_name">
+      <property name="geometry">
+       <rect>
+        <x>210</x>
+        <y>220</y>
+        <width>361</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>13</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: white;
+background-color: #555555;
+border-radius: 10</string>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="comboBox_cofe_search">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>60</y>
+        <width>321</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>13</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #77777e;
+color: white</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_cofe_photo">
+      <property name="geometry">
+       <rect>
+        <x>590</x>
+        <y>30</y>
+        <width>500</width>
+        <height>780</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_2">
+     <attribute name="title">
+      <string>Спорт</string>
+     </attribute>
+     <widget class="QPushButton" name="pushButton_sport_like">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>530</y>
+        <width>361</width>
+        <height>231</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>30</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+	color: #ff6666;
+	background-color: #222222;
+	border-color: rgb(66, 69, 183);
+     border-width: 3px;        
+     border-style: solid;
+     border-radius: 10px;
+     margin:30px;
+     padding:30px;
+}
+
+QPushButton:pressed{
+	background-color: #333333;
+	color: 220000;
+}</string>
+      </property>
+      <property name="text">
+       <string>&lt;3</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_sport_id">
+      <property name="geometry">
+       <rect>
+        <x>210</x>
+        <y>130</y>
+        <width>361</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>13</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: white;
+background-color: #555555;
+border-radius: 10</string>
+      </property>
+     </widget>
+     <widget class="QTextEdit" name="textEdit_sport_description">
+      <property name="geometry">
+       <rect>
+        <x>210</x>
+        <y>300</y>
+        <width>361</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>13</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: white;
+background-color: #555555;
+border-radius: 8</string>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="comboBox_sport_search">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>60</y>
+        <width>321</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>13</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #77777e;
+color: white</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_sport_search">
+      <property name="geometry">
+       <rect>
+        <x>310</x>
+        <y>-10</y>
+        <width>291</width>
+        <height>161</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Swiss921 BT</family>
+        <pointsize>16</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+	color: #ff6666;
+	background-color: #222222;
+	border-color: rgb(66, 69, 183);
+     border-width: 3px;        
+     border-style: solid;
+     border-radius: 10px;
+     margin:30px;
+     padding:30px;
+}
+
+QPushButton:pressed{
+	background-color: #333333;
+	color: 220000;
+}</string>
+      </property>
+      <property name="text">
+       <string>Найти</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_19">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>20</y>
+        <width>181</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>15</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: white</string>
+      </property>
+      <property name="text">
+       <string>Название товара:</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="layoutWidget_3">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>120</y>
+        <width>161</width>
+        <height>361</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_4">
+       <item>
+        <widget class="QLabel" name="label_20">
+         <property name="font">
+          <font>
+           <pointsize>13</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: white</string>
+         </property>
+         <property name="text">
+          <string>ID:</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_21">
+         <property name="font">
+          <font>
+           <pointsize>13</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: white</string>
+         </property>
+         <property name="text">
+          <string>Название:</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_22">
+         <property name="font">
+          <font>
+           <pointsize>13</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: white</string>
+         </property>
+         <property name="text">
+          <string>Описание:</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_23">
+         <property name="font">
+          <font>
+           <pointsize>13</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: white</string>
+         </property>
+         <property name="text">
+          <string>Цена:</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QLabel" name="label_sport_photo">
+      <property name="geometry">
+       <rect>
+        <x>590</x>
+        <y>30</y>
+        <width>500</width>
+        <height>780</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_sport_price">
+      <property name="geometry">
+       <rect>
+        <x>210</x>
+        <y>410</y>
+        <width>361</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>13</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: white;
+background-color: #555555;
+border-radius: 10</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_sport_name">
+      <property name="geometry">
+       <rect>
+        <x>210</x>
+        <y>220</y>
+        <width>361</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>13</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: white;
+background-color: #555555;
+border-radius: 10</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1120</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>430</width>
+    <height>108</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: #AAAAAA</string>
+  </property>
+  <widget class="QPushButton" name="pushButton_entrance">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>30</y>
+     <width>201</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>15</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+	background-color: #666666;
+	color: white;
+	border-radius: 20;
+	border-color: red
+}
+
+QPushButton:pressed{
+	background-color: #888888;
+	color: #111111;
+}</string>
+   </property>
+   <property name="text">
+    <string>Вход</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_admin">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>30</y>
+     <width>201</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>15</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+	background-color: #666666;
+	color: white;
+	border-radius: 20;
+	border-color: red
+}
+
+QPushButton:pressed{
+	background-color: #888888;
+	color: #111111;
+}</string>
+   </property>
+   <property name="text">
+    <string>Администрирование</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
